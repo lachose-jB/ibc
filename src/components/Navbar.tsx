@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="container flex justify-between items-center">
         <a href="#home" className="flex items-center space-x-2">
           <span className="text-xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-          <img src="../src/assets/img/logo/logo_ibc.jpg" alt="Logo" className="h-20 w-25 ml-4" />
+            <img src="/assets/img/logo/logo_ibc.jpg" alt="Logo" className="h-20 w-25 ml-4" />
             IBC & INVEST
           </span>
         </a>
@@ -76,7 +76,7 @@ const Navbar = () => {
 
         <a href="#home" className="flex items-center space-x-2">
           <span className="text-xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-          <img src="../src/assets/img/logo/logobn2.png" alt="Logo" className="h-20 w-22 ml-1" />
+            <img src="/assets/img/logo/logobn2.png" alt="Logo" className="h-20 w-22 ml-1" />
             BN2smart
           </span>
         </a>

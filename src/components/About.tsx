@@ -54,7 +54,7 @@ const About = () => {
           {/* Bloc vidéo + date */}
           <div className="relative h-96 rounded-lg overflow-hidden animate-fade-in">
             <video 
-              src="../src/assets/video/vid.mp4"  // Assure-toi que ce chemin est correct selon ta structure de projet.
+              src="/assets/video/vid.mp4"  // Assure-toi que ce chemin est correct selon ta structure de projet.
               autoPlay 
               loop 
               muted 
