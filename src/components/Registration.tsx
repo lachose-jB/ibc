@@ -85,19 +85,20 @@ const Registration = () => {
     )
     .then(() => {
       alert('Inscription envoyée avec succès !');
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        organization: '',
-        position: '',
-        plan: 'Reservation Stand',
-      });
+    
+      if (formData.plan === 'Reservation Stand') {
+        window.location.href = 'https://pay.sumup.com/b2c/XORWZ6UZ6B';
+      } else {
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          organization: '',
+          position: '',
+          plan: 'Reservation Stand',
+        });
+      }
     })
-    .catch((error) => {
-      console.error('Erreur lors de l’envoi :', error);
-      alert("Une erreur s'est produite lors de l'envoi.");
-    });
   };
   return (
     <section id="registration" className="section bg-white">
@@ -217,7 +218,7 @@ const Registration = () => {
   
           {/* Formules */}
           <div className="space-y-6 max-w-4xl mx-auto mb-10 w-100 animate-fade-in">
-            <h3 className="text-2xl font-bold mb-6 text-center">Nos formules</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center">Reservation</h3>
   
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
               {pricingPlans.map((plan, index) => (

@@ -22,25 +22,25 @@ import image18 from '../assets/img/invite/18.webp';
 const speakersData = [
   {
     name: 'Mr Ibrahima BADJI',
-    role: 'Collectivité Sénégalaise',
+    role: '',
     titre: 'Président IBC & Invest',
     image: image1,
   },
   {
     name: 'Mr Narcisse BANDJIM',
-    role: 'Collectivité Sénégalaise',
+    role: '',
     titre: 'Président BN2smart',
     image: image2,
   },
   {
     name: 'Mr Freddy ZANGA',
-    role: 'Collectivité Sénégalaise',
+    role: '',
     titre: 'Président de la CICP',
     image: image3,
   },
   {
     name: 'Mr Amadou SYLLA',
-    role: 'Collectivité Sénégalaise',
+    role: '',
     titre: 'Président Sos Casamance',
     image: image4,
   },
