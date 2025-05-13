@@ -16,9 +16,9 @@ const pricingPlans = [
     recommended: false,
   },
   {
-    name: 'Reservation place',
-    price: '0',
-    currency: '€',
+    name: 'inscription visiteure',
+    price: 'Gratuite',
+    currency: '',
     features: [
       'Accès à toutes les conférences',
     ],
@@ -96,7 +96,21 @@ const Registration = () => {
           organization: '',
           position: '',
           plan: 'Reservation Stand',
-        });
+        });console.log('formData:', formData);
+console.log('pricingPlans:', pricingPlans);
+console.log('emailjs response:', emailjs.send(
+  'service_30i3lmr',
+  'template_hvb0pms',
+  {
+    first_name: formData.firstName,
+    last_name: formData.lastName,
+    email: formData.email,
+    organization: formData.organization,
+    position: formData.position,
+    plan: formData.plan,
+  },
+  'MwgGhub-9ylALpwej'
+));
       }
     })
   };
@@ -104,7 +118,6 @@ const Registration = () => {
     <section id="registration" className="section bg-white">
       <div className="container">
         <h2 className="section-title">Réservation</h2>
-  
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Formulaire */}
           <div className="animate-slide-up">

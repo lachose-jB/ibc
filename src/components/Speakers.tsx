@@ -134,15 +134,11 @@ const Speakers = () => {
   return (
     <section id="speakers" className="section bg-white">
       <div className="container">
-        <h2 className="section-title">Collectivités Participantes</h2>
+        <h2 className="section-title">Participantes</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {speakersData.map((speaker, index) => (
-            <div 
-              key={index} 
-              className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all animate-fade-in"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
+            <div key={index} className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
               <div className="relative h-60 overflow-hidden">
                 <img 
                   src={speaker.image} 
