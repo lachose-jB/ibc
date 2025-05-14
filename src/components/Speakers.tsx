@@ -18,6 +18,20 @@ import image15 from '../assets/img/invite/15.webp';
 import image16 from '../assets/img/invite/16.webp';
 import image17 from '../assets/img/invite/17.webp';
 import image18 from '../assets/img/invite/18.webp';
+import image19 from '../assets/img/invite/19.webp';
+import image20 from '../assets/img/invite/20.webp';
+import image21 from '../assets/img/invite/21.webp';
+import image22 from '../assets/img/invite/22.webp';
+import image23 from '../assets/img/invite/23.webp';
+import image24 from '../assets/img/invite/24.webp';
+import image25 from '../assets/img/invite/25.webp';
+import image26 from '../assets/img/invite/26.webp';
+import image27 from '../assets/img/invite/27.webp';
+import image28 from '../assets/img/invite/28.webp';
+import image29 from '../assets/img/invite/29.webp';
+import image30 from '../assets/img/invite/30.webp';
+import image31 from '../assets/img/invite/31.webp';
+import image32 from '../assets/img/invite/32.webp';
 
 const speakersData = [
   {
@@ -27,21 +41,21 @@ const speakersData = [
     image: image1,
   },
   {
+    name: 'Mr Roch Verlene BONGOLO',
+    role: '',
+    titre: 'Expert Comptable Associé JLD Conseils et Associés',
+    image: image2,
+  },
+  {
     name: 'Mr Narcisse BANDJIM',
     role: '',
     titre: 'Président BN2smart',
-    image: image2,
+    image: image3,
   },
   {
     name: 'Mr Freddy ZANGA',
     role: '',
     titre: 'Président de la CICP',
-    image: image3,
-  },
-  {
-    name: 'Mr Amadou SYLLA',
-    role: '',
-    titre: 'Président Sos Casamance',
     image: image4,
   },
   {
@@ -81,15 +95,15 @@ const speakersData = [
     image: image10,
   },
   {
-    name: 'Mr Mamadou FAYE',
+    name: 'Mme Astou GUEYE',
     role: 'Collectivité Sénégalaise',
-    titre: 'Président IBC & Invest Italie',
+    titre: 'Maire de Rufique Ouest',
     image: image11,
   },
   {
-    name: 'Mr Moustapha LO',
+    name: 'Mme Traoré Youma BOUARE',
     role: 'Collectivité Sénégalaise',
-    titre: 'Président IBC & Invest Sénégal',
+    titre: 'Adjointe au Maire ',
     image: image12,
   },
   {
@@ -100,34 +114,118 @@ const speakersData = [
   },
   {
     name: 'Mme Fati DIOP',
-    role: 'Collectivité Sénégalaise',
+    role: 'IBC & Invest Membre',
     titre: 'Président IBC & Invest Maroc',
     image: image14,
   },
   {
-    name: "Mme Safietou KANDE",
-    role: 'Collectivité Sénégalaise',
-    titre: 'Président IBC & Invest Chine',
+    name: "Mr Salif DIEDHIOU",
+    role: 'IBC & Invest Membre',
+    titre: 'Sécretaire IBC & Invest international',
     image: image15,
   },
   {
     name: 'Mr Amadou Cheikhou DIAME',
-    role: 'Collectivité Sénégalaise',
+    role: 'IBC & Invest Membre',
     titre: 'Président IBC & Invest Allemagne',
     image: image16,
   },
   {
-    name: 'Mr Khadim SOUGOU',
-    role: 'Collectivité Sénégalaise',
-    titre: 'Président IBC & Invest Amerique',
+    name: 'Mr Moustapha LO',
+    role: 'IBC & Invest Membre',
+    titre: 'Président IBC Sénégal',
     image: image17,
   },
   {
-    name: 'Mr El Maestro DJ AL',
-    role: 'Collectivité Sénégalaise',
-    titre: 'Ambassadeur IBC & Invest',
+    name: 'Mr Mamadou DIAGOURAGA',
+    role: '',
+    titre: 'Professeur/ Conseiller en Communication',
     image: image18,
   },
+  {
+    name: 'Mr Karim BRITEL',
+    role: '',
+    titre: 'Président Private French University',
+    image: image19,
+  },
+  {
+    name: 'Mr Mamadou FAYE',
+    role: 'IBC & Invest Membre',
+    titre: 'Président IBC & Invest Italie',
+    image: image20,
+  },
+  {
+    name: 'Mr Amadou SYLLA',
+    role: '',
+    titre: 'Président SOS Casamence',
+    image: image21,
+  },
+  {
+    name: '',
+    role: '',
+    titre: 'Président Novation Consulting et Assistant technique Expertise France',
+    image: image22,
+  },
+  {
+    name: 'Mme Louise de MAERTELEIRE-MBOUI ',
+    role: '',
+    titre: 'Directrice Ajointe des Finances du département de Val d’Oise',
+    image: image23,
+  },
+  {
+    name: 'Mme Isis Anna MBENGUE',
+    role: '',
+    titre: 'Présidente Halaye',
+    image: image24
+  },
+  {
+    name: 'Mme Fatim LO',
+    role: 'IBC & Invest Membre',
+    titre: 'Présidente IBC Espagne',
+    image: image25
+  },
+  {
+    name: 'Mr Alioune SALL',
+    role: 'IBC & Invest Membre',
+    titre: 'Président IBC Beneluxe ',
+    image: image26
+  },
+  {
+    name: 'Mme Asma Khadija NGOM',
+    role: 'IBC & Invest Membre',
+    titre: 'Charger de Communication IBC',
+    image: image27
+  },
+  {
+    name: 'Mr Camille Bounama SYLLA',
+    role: '',
+    titre: "Conseiller pour l'Afrique de l’Ouest",
+    image: image28
+  },
+  {
+    name: 'Mr Babacar GUEYE',
+    role: '',
+    titre: 'PCD de Keur Massar',
+    image: image29
+  },
+  {
+    name: 'Mr Pape Bakary CISSOKO',
+    role: '',
+    titre: 'Professeur',
+    image: image30
+  },
+  {
+    name: 'Mr Jean MOLIERE',
+    role: '',
+    titre: 'PDG Continent Média',
+    image: image31
+  },
+  {
+    name: 'Mme Oumy Sall NDIAYE',
+    role: '',
+    titre: 'Diaar Yeemou Invest',
+    image: image32
+  }
 ];
 
 const Speakers = () => {
