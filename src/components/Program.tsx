@@ -1,5 +1,7 @@
 import React from 'react';
 import { MapPin, Clock } from 'lucide-react';
+import program1 from '../assets/img/programe/1.webp';
+import program2 from '../assets/img/programe/2.webp';
 
 const Program = () => {
   const programItems = [
@@ -63,7 +65,9 @@ const Program = () => {
     <section id="program" className="section bg-gray-50">
       <div className="container">
         <h2 className="section-title">Programme</h2>
-
+        <div className="section-divider-program">
+          <img src={program2} alt="Line" className="w-full h-auto" />
+        </div>
         <div className="relative">
           {/* Timeline line */}
           <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gray-300 transform md:translate-x-[-0.5px]"></div>

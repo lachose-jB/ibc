@@ -84,3 +84,14 @@
     opacity: 1;
   }
 }
+
+.section-divider-program{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.section-divider-program img{
+  width: 30%;
+  height: auto;
+}

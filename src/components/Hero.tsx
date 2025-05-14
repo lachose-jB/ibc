@@ -32,7 +32,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <a href="#registration" className="btn btn-secondary text-xl px-6 py-4">
-              Réserver vos stands
+              Réservation et inscription
             </a>
             <a href="#program" className="btn bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm text-xl px-6 py-4">
               Voir le programme
